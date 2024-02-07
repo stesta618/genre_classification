@@ -9,3 +9,5 @@ dependencies:
   - scipy=1.6.1
   - pip:
       - wandb==0.10.21
+      - numpy==1.23.5
+      - protobuf==3.20.1
