@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-02-08T13:37:48.667400",
+    "startedAt": "2024-02-08T13:37:47.194140",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--model_export",
+        "model_export:latest",
+        "--test_data",
+        "data_test.csv:latest"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "evaluate/run.py",
+    "git": {
+        "remote": "https://github.com/stesta618/genre_classification.git",
+        "commit": "ce9158627eef241b38c0784290e1d3e792021981"
+    },
+    "email": "shil699@wgu.edu",
+    "root": "/home/stesta/genre_classification",
+    "host": "Shannon-Laptop",
+    "username": "stesta",
+    "executable": "/home/stesta/miniconda3/envs/mlflow-674c4e3d07ce53ad7371aa686be99ee290802c78/bin/python"
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/genre_classification/mlruns/0/cb773596f7ab45b5933a48926c7f2ea2/artifacts
+end_time: 1707340992672
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb773596f7ab45b5933a48926c7f2ea2
+run_name: colorful-bass-244
+run_uuid: cb773596f7ab45b5933a48926c7f2ea2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707340989924
+status: 4
+tags: []
+user_id: stesta

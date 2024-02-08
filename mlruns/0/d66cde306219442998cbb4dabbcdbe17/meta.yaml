@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/genre_classification/mlruns/0/d66cde306219442998cbb4dabbcdbe17/artifacts
+end_time: 1707341199149
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d66cde306219442998cbb4dabbcdbe17
+run_name: bemused-sow-561
+run_uuid: d66cde306219442998cbb4dabbcdbe17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707341149822
+status: 4
+tags: []
+user_id: stesta

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/genre_classification/mlruns/0/bcdaa30f012f4f448f098a9f6b88fdb4/artifacts
+end_time: 1707343081432
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: bcdaa30f012f4f448f098a9f6b88fdb4
+run_uuid: bcdaa30f012f4f448f098a9f6b88fdb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707343010286
+status: 3
+tags: []
+user_id: stesta

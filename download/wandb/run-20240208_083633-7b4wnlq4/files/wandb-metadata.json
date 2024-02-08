@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-02-08T13:36:35.547482",
+    "startedAt": "2024-02-08T13:36:33.735651",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "/home/stesta/genre_classification/download/download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/stesta618/genre_classification.git",
+        "commit": "ce9158627eef241b38c0784290e1d3e792021981"
+    },
+    "email": "shil699@wgu.edu",
+    "root": "/home/stesta/genre_classification",
+    "host": "Shannon-Laptop",
+    "username": "stesta",
+    "executable": "/home/stesta/miniconda3/envs/mlflow-3126f776e13af37bafce68d55c448d347c71a45f/bin/python"
+}

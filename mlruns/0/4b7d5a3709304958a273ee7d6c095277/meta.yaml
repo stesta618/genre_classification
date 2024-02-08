@@ -1,0 +1,15 @@
+artifact_uri: file:///home/stesta/genre_classification/mlruns/0/4b7d5a3709304958a273ee7d6c095277/artifacts
+end_time: 1707343118557
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b7d5a3709304958a273ee7d6c095277
+run_name: overjoyed-cub-65
+run_uuid: 4b7d5a3709304958a273ee7d6c095277
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707342722115
+status: 4
+tags: []
+user_id: stesta

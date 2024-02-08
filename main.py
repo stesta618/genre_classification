@@ -20,7 +20,6 @@ def go(config: DictConfig):
         # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
         steps_to_execute = config["main"]["execute_steps"]
 
     # Download step
@@ -46,7 +45,7 @@ def go(config: DictConfig):
                 "input_artifact":"raw_data.parquet:latest",
                 "artifact_name":"preprocessed_data.csv",
                 "artifact_type":"preprocessed_data",
-                "artifact_description":"A preprocessed dataset"
+                "artifact_description":"A preprocessed dataset"})
 
     if "check_data" in steps_to_execute:
 
@@ -57,7 +56,7 @@ def go(config: DictConfig):
             parameters ={
                 "reference_artifact":config['data']['reference_dataset'],
                 "sample_artifact":"preprocessed_data.csv:latest",
-                "ks_alpha":config['data']['ks_alpha']
+                "ks_alpha":config['data']['ks_alpha']})
 
     if "segregate" in steps_to_execute:
 
@@ -70,7 +69,7 @@ def go(config: DictConfig):
                 "artifact_root":"data",
                 "artifact_type":"segregated_data",
                 "test_size":config['data']['test_size'],
-                "stratify":config['data']['stratify']
+                "stratify":config['data']['stratify']})
 
     if "random_forest" in steps_to_execute:
 
@@ -90,7 +89,7 @@ def go(config: DictConfig):
                 "export_artifact":config['random_forest_pipeline']['export_artifact'],
                 "random_seed":config['main']['random_seed'],
                 "val_size":config['data']['test_size'],
-                "stratify":config['data']['stratify']
+                "stratify":config['data']['stratify']})
 
     if "evaluate" in steps_to_execute:
 
@@ -99,8 +98,8 @@ def go(config: DictConfig):
             os.path.join(root_path, "evaluate"),
             "main",
             parameters ={
-                "model_export":config['random_forest_pipeline']['export_artifact'],
-                "test_data":"data_test.csv:latest"
+                "model_export":"model_export:latest",
+                "test_data":"data_test.csv:latest"})
 
 
 if __name__ == "__main__":
